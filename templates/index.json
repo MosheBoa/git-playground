@@ -50,7 +50,6 @@
     },
     "featured_collection": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
@@ -111,74 +110,47 @@
         "padding_bottom": 52
       }
     },
-    "featured_product_r8r4Wd": {
-      "type": "featured-product",
+    "rich_text_7iXJTp": {
+      "type": "rich-text",
       "blocks": {
-        "text_agRpCR": {
-          "type": "text",
+        "heading_magEi8": {
+          "type": "heading",
           "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_MaECjt": {
-          "type": "title",
-          "settings": {
+            "heading": "Talk about your brand",
             "heading_size": "h1"
           }
         },
-        "price_rAAj3i": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker_nqhzf4": {
-          "type": "variant_picker",
+        "text_UpKUV9": {
+          "type": "text",
           "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         },
-        "quantity_selector_Ubn9VQ": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_AJ4ytT": {
-          "type": "buy_buttons",
+        "button_wek6L8": {
+          "type": "button",
           "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "share_PNA7RE": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "text_agRpCR",
-        "title_MaECjt",
-        "price_rAAj3i",
-        "variant_picker_nqhzf4",
-        "quantity_selector_Ubn9VQ",
-        "buy_buttons_AJ4ytT",
-        "share_PNA7RE"
+        "heading_magEi8",
+        "text_UpKUV9",
+        "button_wek6L8"
       ],
-      "name": "t:sections.featured-product.presets.name",
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "product": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -186,6 +158,6 @@
     "image_banner",
     "featured_collection",
     "f9354760-ff1e-4b31-963d-f30f9afe38fa",
-    "featured_product_r8r4Wd"
+    "rich_text_7iXJTp"
   ]
 }
